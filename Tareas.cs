@@ -63,12 +63,6 @@ namespace GestionDeTareas
             Descripcion = description;
             Duracion = duracion;
         }
-        public void MostrarTarea()
-        {
-            Console.WriteLine($"\nID: {TareaID}");
-            Console.WriteLine($"\nDescripcion: {Descripcion}");
-            Console.WriteLine($"\nDuracion: {Duracion}");
-        }
         
         public void MarcarRealizado()
         {
